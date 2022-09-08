@@ -7,6 +7,3 @@ def exp_sum(n):
         for y in range(i, n + 1):
             waystosum[y] += waystosum[y - i]
     return waystosum[-1]
-
-
-print(exp_sum(50))
